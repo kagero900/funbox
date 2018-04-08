@@ -1,13 +1,13 @@
 .product {
   display: flex;
   flex-wrap: wrap;
-  background-color: #1b1b1b;
-  background-image: url(../img/pattern.png);
-  background-repeat: repeat;
+  justify-content: space-around;
 }
+
 .product__title {
   @include font(48px, 56px);
   width: 100%;
+  text-align: center;
   font-family: "Exo2Thin", "Arial", sans-serif;
   font-weight: 100;
   color: #ffffff;
@@ -19,6 +19,8 @@
 
 .product__info {
   @include font(13px, 16px);
+  text-align: center;
+  text-shadow: 0 1px 0 #000000;
   color: #ffffff;
 }
 

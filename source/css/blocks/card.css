@@ -3,8 +3,11 @@
   display: block;
   width: 320px;
   background-color: #f2f2f2;
+  -webkit-clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%, 0 22%);
+          clip-path: polygon(22% 0, 100% 0, 100% 100%, 0 100%, 0 22%);
   border-radius: 20px;
-  box-shadow: inset 0px 0px 0px 4px #1698d9; }
+  border: 4px solid #1698d9;
+  /*box-shadow: inset 0px 0px 0px 4px #1698d9;*/ }
 
 .card__desc {
   font-size: 16px;
@@ -21,6 +24,13 @@
   font-size: 24px;
   font-weight: 700;
   color: #000000; }
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 16px;
+  color: #666666; }
 
 .card__weight-wrapper {
   display: flex;
