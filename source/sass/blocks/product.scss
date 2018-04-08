@@ -1,0 +1,28 @@
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1b1b1b;
+  background-image: url(../img/pattern.png);
+  background-repeat: repeat;
+}
+.product__title {
+  @include font(48px, 56px);
+  width: 100%;
+  font-family: "Exo2Thin", "Arial", sans-serif;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.product__card {
+  margin-bottom: 20px;
+}
+
+.product__info {
+  @include font(13px, 16px);
+  color: #ffffff;
+}
+
+.product__info-link {
+  color: #1698d9;
+  text-decoration-style: dashed;
+}
