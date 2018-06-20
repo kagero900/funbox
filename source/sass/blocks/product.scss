@@ -1,11 +1,17 @@
 .product {
+  margin: 0 auto;
+  padding-top: 23px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1125px;
 }
 
 .product__title {
-  @include font(48px, 56px);
+  @include font(36px, 56px);
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
   width: 100%;
   text-align: center;
   font-family: "Exo2Thin", "Arial", sans-serif;
