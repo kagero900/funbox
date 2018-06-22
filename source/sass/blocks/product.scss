@@ -4,9 +4,11 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1125px;
+  width: 320px;
 
-  @media()
+  @media(min-width: 768px) {
+    width: 1125px;
+  }
 }
 
 .product__title {
