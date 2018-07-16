@@ -2,6 +2,7 @@
   "name": "funbox",
   "version": "1.0.0",
   "description": "Test Task for FunBox",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "npm run editorconfig && npm run stylelint",
@@ -10,8 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^8.2.0",
-    "browser-sync": "^2.23.6",
+    "autoprefixer": "^8.6.3",
+    "browser-sync": "^2.24.5",
     "gulp": "^3.9.1",
     "gulp-plumber": "^1.2.0",
     "gulp-postcss": "^7.0.1",

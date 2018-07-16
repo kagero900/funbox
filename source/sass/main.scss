@@ -1,14 +1,12 @@
 body {
+  margin: 0;
+  display: flex;
+  height: 100vh;
   font-family: "Trebuchet MS";
   font-weight: 400;
   background-color: #1b1b1b;
   background-image: url(../img/pattern.png);
   background-repeat: repeat;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 * {
